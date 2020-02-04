@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+.photo {
+    background-color: light grey;
+    width: 90vw;
+    height: 1000px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 100px;
+}
+.categories {
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 300px;
+    grid-gap: 10px;
+}
+    .clothing {
+        background-color: pink;
+    }
+.other {
+        background-color: white;
+        width: 90vw;
+        margin: auto;
+        padding: 10px;
+        margin-top: 0px;
+    
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 300px;
+        grid-gap: 10px;
+    }
+    .stuff {
+        background-color: pink;
+    }
+.parent_types {
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 300px;
+    grid-gap: 10px;
+}
+    .types {
+        background-color: grey;
+}
+.video {
+    background-color: pink;
+    width: 35vw;
+    height: 400px;
+    margin: auto;
+    padding: 0px;
+    margin-left: 60vw;
+    margin-top: 10vw;
+}
+.menu {
+    background-color: light grey;
+    width: 90vw;
+    height: 800px;
+    margin: auto;
+    padding: 0px;
+    margin-top: 50px;
+}
