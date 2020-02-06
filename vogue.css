@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 100px;
+}
+.vogue {
+    background-color:rgb(89, 95, 3);
+    width: 45vw;
+    height: 200px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 100px;
+}
+.parent_tabs {
+    background-color: white;
+    width: 40vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+}
+    .tabs{
+        background-color:rgb(201, 156, 126);
+    }
+.parent_dress {
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 700px;
+    grid-gap: 10px;
+}
+    .dresses {
+        background-color:rgb(83, 28, 28);
+    }    
+.parent_celeb {
+    background-color: white;
+    width: 45vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 10px;
+}
+    .celebs {
+            background-color:rgb(85, 84, 84);
+        } 
+.strip {
+    background-color: rgb(89, 95, 3);
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+}
+.parent_content{
+    background-color: white;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 200px;
+}
+.news {
+    background-color:rgb(83, 28, 28);
+    height: 500px;
+    margin-bottom: 20px;
+}
+.ad {
+    background-color:rgb(201, 156, 126);
+    height: 800px;
+}
+.photo {
+    background-color:rgb(85, 84, 84);
+    width: 90vw;
+    height: 800px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 100px;
+}
+.strip_two {
+    background-color: rgb(89, 95, 3);
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+}
